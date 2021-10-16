@@ -1,0 +1,179 @@
+/*----------------------common css start---------------------------------*/
+*{margin: 0px; }
+body{font-family: sans-serif;}
+/*--------------------------common css start------------------------------*/
+
+/*------------------------header start----------------------------------*/
+.wrapper{
+	margin: 0 auto; 
+	width: 90%; 
+	border: 1px solid black; 
+	overflow: hidden;
+}
+.logo{
+	border: 1px solid red; 
+	width: 15% ; 
+	float:  left}
+.logo img{
+	width: 100%;}
+
+.menu{
+	border: 1px solid red; 
+	width: 60% ;
+	float: right; }
+
+ul{
+	float: right; 
+	overflow: hidden;}
+li{
+	list-style:none; 
+	float: left; 
+	}
+a{	
+	text-decoration: none; 
+	float: right;
+	padding: 26px 10px;
+	display:  block;
+}
+.menu ul li:last-child a{padding-right: 0px;}
+/*------------------------header end------------------------------*/
+
+/*------------------------banner start----------------------------------*/
+.banner{
+	padding: 30px 0px;
+	border: 2px solid purple;
+	align-content: center;
+
+}
+.wrapper2{
+	margin: 0 auto;
+	width: 70%;
+	border: 2px solid red;
+	
+}
+.b_content{
+	
+	
+	text-align: center;
+}
+.b_h1{
+	font-size: 40px;
+	width: 70%;
+	margin: 0 auto;
+	}
+.b_span{color: rgb(0, 138, 255);}
+.b_text{
+	font-size: 13px;
+	width: 90%;
+	border: 2px solid black;
+	margin: 0 auto;
+	color: gray;
+}
+.b_image{
+	width: 80%;
+	border: 2px solid green;
+	margin: 0 auto;
+	padding: 5px 0px;
+	
+	
+}
+img{
+	width: 100%;
+	
+}
+
+/*------------------------banner end----------------------------------*/
+
+/*------------------------Message start----------------------------------*/
+.wrapper3{
+	margin: 0 auto;
+	width: 70%;
+	border: 2px solid red;
+	overflow: hidden;
+	padding: 10px 0px;
+}
+.wrapper4{
+	width: 48%;
+	border: 1px solid yellow;
+	float: left;
+
+
+}
+.part1{
+	width: 100%;
+	border: 1px solid red;
+	text-align: right;
+	padding-top: 40px;
+	color: orange;
+	font-size: 30px;
+}
+.part2{
+	width: 100%;
+	border: 1px solid red;
+	text-align: right;
+	font-size: 13px;
+	color: gray;
+
+}
+.part3{
+	width: 48%;
+	border: 1px solid blue;
+	float: right;
+	padding: 20px 0;
+	font-size: 30px;
+	color: gray;
+}
+/*------------------------Message end----------------------------------*/
+
+
+
+
+
+/*---------Service start----------*/
+.wrapper5{
+	margin: 0 auto;
+	width: 70%;
+	border: 2px solid red;
+	overflow: hidden;
+	padding: 10px 0px;
+	overflow: hidden;
+	}
+
+.s1{
+	width: 30%;
+	border: 1px solid black;
+	float: left;
+	
+
+}
+.s2{
+	width: 30%;
+	border: 1px solid green;
+	float: left;
+	
+	}
+
+.s3{
+	width: 30%;
+	border: 1px solid blue;
+	float: left;
+
+}
+.wrapper5 img{
+	width: 100%;
+}
+.margin{padding: 0 1.5%;
+
+}
+/*----------Service end*----------------/
+
+/*------------------------fopoter start----------------------------------*/
+.footer{
+	background-color: rgb(0, 138, 255);
+	width: 100%;
+	min-height: 50px;
+	text-align: center;
+	color: white;
+	padding-top: 25px;
+}
+/*------------------------fopoter start----------------------------------*/
